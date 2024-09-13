@@ -1,0 +1,25 @@
+.bg-carousel {
+  animation: carousel infinite linear 20s;
+  background-size: cover;
+}
+
+@keyframes carousel {
+  0% {
+    background-image: url('https://loremflickr.com/300/200/space,night,batman/all');
+  }
+  20% {
+    background-image: url('https://loremflickr.com/300/200/water,sea,underwater/all');
+  }
+  40% {
+    background-image: url('https://loremflickr.com/300/200/sun,sunrise,sunset,warm/all');
+  }
+  60% {
+    background-image: url('https://loremflickr.com/300/200/winter,snow,cold,freezing/all');
+  }
+  80% {
+    background-image: url('https://loremflickr.com/300/200/city,buildings,newyork/all');
+  }
+  100% {
+    background-image: url('https://loremflickr.com/300/200/nature,trees,forests/all');
+  }
+}
